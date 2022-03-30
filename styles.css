@@ -8,7 +8,24 @@
 .navbar{
     position:fixed;
     width:100%;
-    background-color:crimson;
+    background-color:lightblue;
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar .logo a{
+    font-size: 40px;
+    color: #fff;
+    font-weight: 600;
+}
+.navbar .menu li a{
+    color:#fff;
+}
+.navbar .menu li{
+    list-style:none;
+    display: inline-block;
+}
+.navbar .max-width {
+    display:flex;
+    align-items: center;
 }
 /*nav{
     float:right;
