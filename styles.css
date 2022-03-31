@@ -8,25 +8,65 @@
 .navbar{
     position:fixed;
     width:100%;
-    background-color:lightblue;
+    background-color:crimson;
     font-family: 'Ubuntu', sans-serif;
 }
+.navbar .max-width {
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 20px;
+    margin: auto;
+    display:block;
+}
 .navbar .logo a{
-    font-size: 40px;
+    font-size: 32px;
     color: #fff;
     font-weight: 600;
 }
 .navbar .menu li a{
     color:#fff;
+    font-size: 22px;
+    float:left;
 }
 .navbar .menu li{
     list-style:none;
     display: inline-block;
 }
-.navbar .max-width {
-    display:flex;
+.quote{
+    box-sizing: border-box;
+    height: 200px;
+    width: 500px;
     align-items: center;
+    text-align: center;
+    border:1px solid crimson;
+    position: relative;
+    top:10px;
+    padding:5px;
+    margin: 0 auto;
+    border-radius: 1rem;
+    box-shadow: 10px 5px 5px red;
 }
+.quote h3{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+.quote p{
+    font-size: 1.2rem;
+}
+.song{
+    position: relative;
+    top:20px;
+
+}
+
+/*.homeSection{
+    background-image: url("./spencer.jpg");
+
+    align-items: center; */
 /*nav{
     float:right;
 }
