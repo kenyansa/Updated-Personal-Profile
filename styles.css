@@ -5,32 +5,47 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-.navbar{
-    position:fixed;
-    width:100%;
-    background-color:crimson;
-    font-family: 'Ubuntu', sans-serif;
-}
-.navbar .max-width {
-    display:flex;
-    align-items: center;
-    justify-content:space-evenly;
+body{
+    background-color: #000000;
 }
 .max-width{
     max-width: 1300px;
-    padding: 0 20px;
+    padding: 0 40px;
     margin: auto;
-    display:block;
+}
+.navbar{
+    position:fixed;
+    width:100%;
+    background-color:black;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 15px 0;
+}
+.navbar .max-width {
+    display:flex;
+    /* align-items: center; */
+    justify-content:space-between;
+}
+.navbar .logo{
+    text-align: left;
+
 }
 .navbar .logo a{
     font-size: 32px;
     color: #fff;
     font-weight: 600;
 }
+.navbar .logo a span{
+    color: crimson;
+}
 .navbar .menu li a{
-    color:#fff;
+    color: aqua;
     font-size: 22px;
-    float:left;
+    margin-left:25px;
+    font-weight: 500;
+}
+.navbar .menu li a:hover{
+    color:crimson;
+    transition: color 0.3s ease;
 }
 .navbar .menu li{
     list-style:none;
@@ -56,17 +71,48 @@
 }
 .quote p{
     font-size: 1.2rem;
+    background-color: #000000;
+    color:#fff;
+    border-radius: 0.5rem;
 }
-.song{
+/* .song{
     position: relative;
     top:20px;
 
+} */
+
+.home{
+    display:flex;
+    /* background: url("./smile.Justine.jpg") no-repeat center; */
+    background-color: black;
+    top:40px;
+    position:relative;
+    align-items: center;
+    height:100vh;
+    background-size: contain;
+    /* opacity: 0.5; */
+    color: #fff;
+    border-radius: 2rem;
 }
-
-/*.homeSection{
-    background-image: url("./spencer.jpg");
-
-    align-items: center; */
+.home .max-width{
+    margin: auto 0 auto 100px;
+}
+.home .home-container .greeting-1{
+    font-size:30px;
+}
+.home .home-container .greeting-2{
+    font-size:30px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.home .home-container .greeting-3{
+    font-size:30px;
+    margin: 5px 0;
+}
+.home .home-container .greeting-3 span{
+    color:crimson;
+    font-weight: 500;
+}
 /*nav{
     float:right;
 }
