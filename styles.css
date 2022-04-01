@@ -213,6 +213,9 @@ body{
 .about .max-width p{
     box-shadow: none;
 }
+.about .max-width h1{
+    text-shadow: 2px 2px 4px black;
+}
 .about .text{
     text-align: center;
 }
@@ -255,7 +258,7 @@ body{
 .education .max-width h1{
     text-align: center;
     padding-top:100px;
-    
+    text-shadow: 2px 2px 4px black;
 }
 .education .max-width p{
     height: auto;
