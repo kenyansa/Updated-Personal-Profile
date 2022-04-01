@@ -83,7 +83,7 @@ body{
 
 .home{
     display:flex;
-    /* background: url("./smile.Justine.jpg") no-repeat center; */
+    background: url("./portJustine.jpg") no-repeat center;
     background-color: black;
     top:40px;
     position:relative;
