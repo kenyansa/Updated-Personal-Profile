@@ -20,6 +20,10 @@ body{
     font-family: 'Ubuntu', sans-serif;
     padding: 15px 0;
 }
+.navbar.sticky{
+    padding: 30px 0;
+    background: crimson;
+}
 .navbar .max-width {
     display:flex;
     /* align-items: center; */
@@ -47,6 +51,14 @@ body{
     color:crimson;
     transition: color 0.3s ease;
 }
+/* styling menu-btn */
+.menu.btn{
+    color:white;
+    font-size: 30px;
+    cursor:pointer;
+    display:none;
+}
+
 .navbar .menu li{
     list-style:none;
     display: inline-block;
@@ -75,12 +87,6 @@ body{
     color:#fff;
     border-radius: 0.5rem;
 }
-/* .song{
-    position: relative;
-    top:20px;
-
-} */
-
 .home{
     display:flex;
     background: url("./portJustine.jpg") no-repeat center;
@@ -93,6 +99,7 @@ body{
     /* opacity: 0.5; */
     color: #fff;
     border-radius: 2rem;
+    min-height: 400px;
 }
 .home .max-width{
     margin: auto 0 auto 100px;
@@ -113,9 +120,29 @@ body{
     color:crimson;
     font-weight: 500;
 }
-/*nav{
-    float:right;
+.hirebtn{
+    height: 50px;
+    width:250px;
+    background-color: crimson;
+    color: white;
+    font-size: 35px;
+    border-radius: 0.5rem;
+    
 }
-.col-9{
-    float:right;
-} */
+/* start of a respnosive media query */
+@media (max-width: 991px){
+    .max-width{
+    
+    padding: 0 50px;
+    margin: auto;
+    }
+    .navbar .menu{
+        position: fixed;
+        background: #111;
+        height: 100vh;
+        width: 100%;
+        left: 0;
+        top: 0;
+    }
+
+}
