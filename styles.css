@@ -232,8 +232,42 @@ body{
     border: 2px solid crimson;
     transition: all 0.3s ease;
     box-shadow: 5px 5px 5px black;
+    font-weight: 500;
 }
 .about .max-width .about-container a:hover{
     color:crimson;
     background: none;
+}
+/* Start of the Education Section  */
+.education .eduMain {
+    align-items: center;
+    /* align-content: center; */
+    text-align: center;
+    border:1px solid crimson;
+    position: relative;
+    top:10px;
+    padding:5px;
+    margin: 0 auto;
+    border-radius: 1rem;
+    padding-bottom: 40px;
+    background: #111;
+}
+.education .max-width h1{
+    text-align: center;
+    padding-top:100px;
+    
+}
+.education .max-width p{
+    height: auto;
+    width: auto;
+    padding-top: 10px;
+    padding-left: 3px;;
+    border-radius: 1em;
+    color: black;
+    position: relative;
+    top: 1em;
+    box-shadow: 5px 5px 10px grey;
+    text-align: center;
+    font-size: 20px;
+    background: #fff;
 }
