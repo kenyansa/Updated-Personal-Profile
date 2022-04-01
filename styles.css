@@ -127,7 +127,24 @@ body{
     color: white;
     font-size: 35px;
     border-radius: 0.5rem;
-    
+}
+.max-width .hirebtn:hover{
+    background: linear-gradient( green, #03a9f4, indigo, violet );
+}
+.max-width p {
+    height: auto;
+    width: 400px;
+    padding-top: 10px;
+    padding-left: 3px;;
+    background:aliceblue;
+    border-radius: 1em;
+    color:blue;
+    position: relative;
+    top: 30px;
+    box-shadow: 10px 5px 5px red;
+    text-align: center;
+    font-size: 20px;
+
 }
 /* start of a respnosive media query */
 @media (max-width: 991px){
