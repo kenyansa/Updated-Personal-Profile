@@ -233,3 +233,7 @@ body{
     transition: all 0.3s ease;
     box-shadow: 5px 5px 5px black;
 }
+.about .max-width .about-container a:hover{
+    color:crimson;
+    background: none;
+}
