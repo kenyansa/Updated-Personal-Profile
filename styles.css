@@ -219,5 +219,17 @@ body{
 .about .max-width .about-container p {
     color:#111;
     box-shadow: 10px 5px 5px red;
-    
+    padding: 10px;
+}
+.about .max-width .about-container a{
+    display: inline-block;
+    background: crimson;
+    color:#fff;
+    margin-top: 20px;
+    padding: 1px 30px;
+    font-size: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+    box-shadow: 5px 5px 5px black;
 }
