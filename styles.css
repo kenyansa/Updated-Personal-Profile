@@ -120,6 +120,10 @@ body{
     color:crimson;
     font-weight: 500;
 }
+/* .home .home-container{
+   flex-direction: column;
+    justify-content: space-between;
+} */
 .hirebtn{
     height: 50px;
     width:250px;
@@ -129,18 +133,17 @@ body{
     border-radius: 0.5rem;
 }
 .max-width .hirebtn:hover{
-    background: linear-gradient( green, #03a9f4, indigo, violet );
+    background: linear-gradient(#03a9f4, indigo, violet );
 }
 .max-width p {
     height: auto;
     width: 400px;
     padding-top: 10px;
     padding-left: 3px;;
-    background:aliceblue;
     border-radius: 1em;
-    color:blue;
+    color:aqua;
     position: relative;
-    top: 30px;
+    top: 4em;
     box-shadow: 10px 5px 5px red;
     text-align: center;
     font-size: 20px;
@@ -162,4 +165,47 @@ body{
         top: 0;
     }
 
+}
+/* Styling the about me section */
+.about{
+    font-family: 'Poppins', sans-serif;
+    position:relative;
+    padding-top: 50px;
+}
+.about .max-width .about-container{
+    display: flex;
+}
+.about .title{
+    position:relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500px;
+    margin-bottom: 20px;
+    padding-bottom: 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.about .title::before{
+    content:"";
+    position:absolute;
+    width:180px;
+    height: 3px;
+    background: black;
+    bottom: 0px;
+    left:50%;
+    transform: translateX(-50%);
+}
+.about .title::after{
+    content:"who I am";
+    position:absolute;
+    height: 3px;
+    font-size: 20px;
+    color:crimson;
+    background:#fff;
+    bottom: -7px;
+    padding:5px;
+    left:50%;
+    transform: translateX(-50%);
+}
+.about .max-width p{
+    box-shadow: none;
 }
