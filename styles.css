@@ -177,6 +177,7 @@ body{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+
 }
 .about .title{
     position:relative;
@@ -217,4 +218,6 @@ body{
 }
 .about .max-width .about-container p {
     color:#111;
+    box-shadow: 10px 5px 5px red;
+    
 }
