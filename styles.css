@@ -378,3 +378,9 @@ body{
 }
 
 /* start of the footer section */
+#footer div{
+  float: left;
+  background-color:crimson;
+  width: 25%;
+  text-align: center;
+}
