@@ -301,6 +301,10 @@ body{
     font-size: 35px;
     text-align: center;
 }
+/* .row{
+    display: flex;
+    flex-direction: row;
+} */
 
 .across{
     width:33.33%;
@@ -308,9 +312,11 @@ body{
     text-align: center;
     padding:50px;
     box-sizing: border-box;
-    /* display:flex; */
+    /* display:flex;
+    flex-direction:row; */
+    position:relative;
 }
-.skills p{
+.skills .across p{
     box-shadow: none;
     align-items: center;
     color:#111;
