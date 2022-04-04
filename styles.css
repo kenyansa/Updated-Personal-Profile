@@ -308,6 +308,12 @@ body{
     text-align: center;
     padding:50px;
     box-sizing: border-box;
+    /* display:flex; */
+}
+.skills p{
+    box-shadow: none;
+    align-items: center;
+    color:#111;
 }
 .across img{
     width: auto;
